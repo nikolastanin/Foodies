@@ -1,0 +1,24 @@
+body {
+  background-color: yellow;
+}
+
+/*nav bar */
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+li:hover {
+  background-color: red;
+}
+
+li {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

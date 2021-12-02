@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"body{\r\n    background-color:yellow;\r\n}\r\n\r\n\r\n/*nav bar */\r\n\r\nul{\r\n   display: flex;\r\n   flex-direction: row;\r\n  \r\n   list-style: none; \r\n}\r\nli:hover{\r\n    background-color: red;\r\n}\r\nli{\r\n    margin-right: 20px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAC,MAAM;CAC1B;;AAGD,YAAY;;AAEZ,AAAA,EAAE,CAAA;EACC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EAEnB,UAAU,EAAE,IAAI;CAClB;;;AACD,AAAA,EAAE,AAAA,MAAM,CAAA;EACJ,gBAAgB,EAAE,GAAG;CACxB;;;AACD,AAAA,EAAE,CAAA;EACE,YAAY,EAAE,IAAI;CACrB"
+}
