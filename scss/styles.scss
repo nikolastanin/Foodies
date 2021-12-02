@@ -1,9 +1,14 @@
-$font-primary : Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+$font-primary: 'Poppins', sans-serif;
+$primary-color : #FF9D02;
+$title-color: #232323;
+$paragraph-color: #8E8E8E;
 
 *{
     margin: 0;
     padding: 0;
-  
+    font-family: $font-primary;
     
 }
 
