@@ -1,24 +1,35 @@
-/* line 1, D:/xampp/htdocs/Foodies/scss/styles.scss */
-body {
-  background-color: yellow;
+/* line 3, D:/xampp/htdocs/Foodies/scss/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*nav bar */
-/* line 8, D:/xampp/htdocs/Foodies/scss/styles.scss */
-ul {
+/* line 13, D:/xampp/htdocs/Foodies/scss/styles.scss */
+.nav-bar {
   display: flex;
+  justify-content: space-around;
+  background-color: orange;
   flex-direction: row;
-  list-style: none;
+  color: white;
+  align-items: center;
 }
 
-/* line 14, D:/xampp/htdocs/Foodies/scss/styles.scss */
-li:hover {
+/* line 22, D:/xampp/htdocs/Foodies/scss/styles.scss */
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 27, D:/xampp/htdocs/Foodies/scss/styles.scss */
+.nav-list .nav-item {
+  display: inline-block;
+  padding: 30px;
+}
+
+/* line 32, D:/xampp/htdocs/Foodies/scss/styles.scss */
+.nav-item:hover {
   background-color: red;
-}
-
-/* line 17, D:/xampp/htdocs/Foodies/scss/styles.scss */
-li {
-  margin-right: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

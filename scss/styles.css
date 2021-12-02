@@ -1,24 +1,37 @@
-body {
-  background-color: yellow;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*nav bar */
-ul {
+.nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: orange;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  list-style: none;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-li:hover {
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list .nav-item {
+  display: inline-block;
+  padding: 30px;
+}
+
+.nav-item:hover {
   background-color: red;
-}
-
-li {
-  margin-right: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
