@@ -16,72 +16,71 @@
 .nav-bar {
   display: flex;
   justify-content: space-around;
-  background-color: orange;
   flex-direction: row;
-  color: white;
+  color: black;
   align-items: center;
   position: fixed;
   width: 100%;
 }
 
-/* line 33, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 34, D:/xampp/htdocs/Foodies/scss/styles.scss */
 .nav-bar a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-/* line 38, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 39, D:/xampp/htdocs/Foodies/scss/styles.scss */
 .nav-list .nav-item {
   display: inline-block;
   padding: 30px;
 }
 
-/* line 43, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 44, D:/xampp/htdocs/Foodies/scss/styles.scss */
 .nav-item:hover {
   background-color: red;
 }
 
-/* line 49, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 50, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section1 {
   display: flex;
   justify-content: space-around;
   padding-top: 200px;
 }
 
-/* line 54, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 55, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section1 .left-box {
   background-color: rebeccapurple;
 }
 
-/* line 57, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 58, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section1 .right-box {
   background-color: yellow;
 }
 
-/* line 61, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 62, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 {
   margin: 200px 0 200px 0;
 }
 
-/* line 65, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 66, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 #quality-container {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 69, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 70, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 #quality-container .quality-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 74, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 75, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 #quality-container img {
   width: 50%;
 }
 
-/* line 80, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 81, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 .title-container {
   display: flex;
   justify-content: center;
@@ -89,17 +88,17 @@
   margin-bottom: 100px;
 }
 
-/* line 86, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 87, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section2 .title-container h1 {
   width: 20%;
 }
 
-/* line 91, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 92, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #section3 {
   background-color: #105e3e;
 }
 
-/* line 101, D:/xampp/htdocs/Foodies/scss/styles.scss */
+/* line 102, D:/xampp/htdocs/Foodies/scss/styles.scss */
 #customer2 {
   display: none;
 }

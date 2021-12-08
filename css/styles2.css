@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+    font-weight: ;
+}
+/* NAVBAR  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.navbar-item{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 100px;
+    
+}
+.navbar-item a{
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+.carousel-img img{
+   
+}
+
+
+.floating-vector{
+    background-image: url(https://www.kindpng.com/picc/m/443-4431686_vector-shapes-png-transparent-png.png);
+    background-repeat: no-repeat;
+    
+}
+.container-fluid{
+    padding: 3% 7%;
+}
+.carousel-box{
+    border: solid 2px ;
+    border-radius: 10%;
+   padding: 20px;
+  
+}
+mark{
+    color:red;
+    background-color: transparent;
+}
+/* img{
+    width: 500px;
+} */
