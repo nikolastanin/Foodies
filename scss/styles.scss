@@ -300,7 +300,7 @@ mark{
 // MEDIA QUERIES
 @media screen and (max-width:1095px) {
    
-    header ul {
+    #navbar-list{
         
         position: relative;
         display: flex;
@@ -309,6 +309,9 @@ mark{
         /* align-items: flex-end; */
         padding: 0;
         display: none;
+    }
+    header .responsive{
+        display: flex;
     }
     #sandwich{
         display:inline-block;
@@ -331,5 +334,7 @@ mark{
        margin-left:0;
        width: 100%;
     }
-
+  .responsive{
+        display:flex;
+    }
   }

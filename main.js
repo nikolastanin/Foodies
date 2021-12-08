@@ -30,6 +30,18 @@ window.addEventListener("scroll",function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky",window.scrollY >0);
 })
+//navbar
+let x = document.getElementById("sandwich");
+let navbar = document.getElementById("navbar-list");
+let y =  document.getElementById("cart-cont");
+const activateMenu = () =>{
+      navbar.style.display ="flex";
+      x.style.display = "none";
+      y.style.display = "none";
+}
+x.addEventListener("click", activateMenu);
+
+
 
 //simple shoping cart functionality
 

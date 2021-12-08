@@ -295,7 +295,7 @@ mark {
 }
 
 @media screen and (max-width: 1095px) {
-  header ul {
+  #navbar-list {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -310,6 +310,11 @@ mark {
     /* align-items: flex-end; */
     padding: 0;
     display: none;
+  }
+  header .responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #sandwich {
     display: inline-block;
@@ -339,6 +344,11 @@ mark {
   .title-image {
     margin-left: 0;
     width: 100%;
+  }
+  .responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=styles.css.map */

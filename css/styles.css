@@ -307,7 +307,7 @@ mark {
 
 @media screen and (max-width: 1095px) {
   /* line 303, D:/xampp/htdocs/Foodies/scss/styles.scss */
-  header ul {
+  #navbar-list {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -317,31 +317,39 @@ mark {
     display: none;
   }
   /* line 313, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  header .responsive {
+    display: flex;
+  }
+  /* line 316, D:/xampp/htdocs/Foodies/scss/styles.scss */
   #sandwich {
     display: inline-block;
   }
-  /* line 316, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  /* line 319, D:/xampp/htdocs/Foodies/scss/styles.scss */
   .rows {
     display: flex;
     flex-direction: column;
   }
-  /* line 320, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  /* line 323, D:/xampp/htdocs/Foodies/scss/styles.scss */
   p {
     width: 100%;
   }
-  /* line 323, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  /* line 326, D:/xampp/htdocs/Foodies/scss/styles.scss */
   .feature-img {
     width: 80%;
   }
-  /* line 326, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  /* line 329, D:/xampp/htdocs/Foodies/scss/styles.scss */
   .title-row {
     flex-direction: column;
     width: 100%;
   }
-  /* line 330, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  /* line 333, D:/xampp/htdocs/Foodies/scss/styles.scss */
   .title-image {
     margin-left: 0;
     width: 100%;
+  }
+  /* line 337, D:/xampp/htdocs/Foodies/scss/styles.scss */
+  .responsive {
+    display: flex;
   }
 }
 
