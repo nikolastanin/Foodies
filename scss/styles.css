@@ -290,9 +290,55 @@ mark {
   background-color: transparent;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
+#sandwich {
+  display: none;
+}
+
+@media screen and (max-width: 1095px) {
+  header ul {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* align-items: flex-end; */
+    padding: 0;
+    display: none;
+  }
+  #sandwich {
+    display: inline-block;
+  }
+  .rows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  p {
+    width: 100%;
+  }
+  .feature-img {
+    width: 80%;
+  }
+  .title-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .title-image {
+    margin-left: 0;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

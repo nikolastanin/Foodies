@@ -294,10 +294,42 @@ mark{
     color:$primary-color;
     background-color: transparent;
 }
-
-// MEDIA QUERIES
-@media only screen and (min-width: 768px) {
-    body{
-        background-color: red;
-    }
+#sandwich{
+    display: none;
 }
+// MEDIA QUERIES
+@media screen and (max-width:1095px) {
+   
+    header ul {
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: flex-end; */
+        padding: 0;
+        display: none;
+    }
+    #sandwich{
+        display:inline-block;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column; 
+    }
+    p{
+        width:100%;
+    }
+    .feature-img{
+        width: 80%;
+    }
+    .title-row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-image{
+       margin-left:0;
+       width: 100%;
+    }
+
+  }
