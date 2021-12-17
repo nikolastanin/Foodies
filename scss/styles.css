@@ -294,6 +294,10 @@ mark {
   display: none;
 }
 
+#menu {
+  margin-top: 200px;
+}
+
 @media screen and (max-width: 1095px) {
   #navbar-list {
     position: relative;
@@ -310,6 +314,9 @@ mark {
     /* align-items: flex-end; */
     padding: 0;
     display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header .responsive {
     display: -webkit-box;

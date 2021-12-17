@@ -37,7 +37,7 @@ let y =  document.getElementById("cart-cont");
 const activateMenu = () =>{
       navbar.style.display ="flex";
       x.style.display = "none";
-      y.style.display = "none";
+     // y.style.display = "none";
 }
 x.addEventListener("click", activateMenu);
 

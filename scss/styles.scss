@@ -297,6 +297,9 @@ mark{
 #sandwich{
     display: none;
 }
+#menu{
+    margin-top: 200px;
+}
 // MEDIA QUERIES
 @media screen and (max-width:1095px) {
    
@@ -309,6 +312,8 @@ mark{
         /* align-items: flex-end; */
         padding: 0;
         display: none;
+        align-items: center;
+       
     }
     header .responsive{
         display: flex;
